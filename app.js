@@ -56,7 +56,7 @@ async function chat(message){
     const res = await fetch(url, {
         method: "POST",
         headers: {
-            "Authorization": "Bearer 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",
+            "Authorization": "Bearer you have to put your api key here",
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
